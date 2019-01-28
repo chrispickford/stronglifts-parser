@@ -1,0 +1,20 @@
+{
+  "name": "stronglifts-parser",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "https://github.com/chrispickford/stronglifts-parser.git",
+  "author": "Chris Pickford <chris@luminousuk.com>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/node": "^10.12.18",
+    "typescript": "^3.2.4"
+  },
+  "dependencies": {
+    "csv-parser": "https://github.com/mafintosh/csv-parser#407d48e4e978da361b7366ec742a519e97744dc2",
+    "moment": "^2.24.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node ."
+  }
+}
